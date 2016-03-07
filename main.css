@@ -1,0 +1,391 @@
+*{
+	margin:0;
+}
+
+a {
+	text-decoration: none;
+	color:#9FA4AA;
+}
+
+nav  {
+
+	min-width:100%;
+	height:78px;
+	font-family:sans-serif;
+	background-color: grey;
+	position:fixed;
+	margin:0px ;
+}
+
+nav ul {
+    float: right;
+    margin: -6px 80px;
+    right: 10px;
+    font-size: 12px;
+    background: -webkit-linear-gradient(#B2B7BD, #B2B7BD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav li  {
+	margin:0px 5px ;
+	padding:5px;
+	font-size:12px;
+	display:inline;
+	text-decoration: none;
+	margin-bottom:20px;
+}
+
+
+nav li a {
+	color:black;
+	padding: 2px;
+	font-family:codebold;
+	font-weight: :500px;
+	font-size: 16px;
+	margin-bottom: 20px
+}
+
+
+
+
+#head{
+    font-size: 22px;
+    background: -webkit-linear-gradient(#B2B7BD, #84898F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    left: 209px;
+    font-size: 22px;
+    top: 27px;
+    margin-left: -13px;
+    position: relative;
+}
+
+#para1{
+  font-size: 10px;
+  background: -webkit-linear-gradient(#B2B7BD, #84898F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  left:222px;
+	position: relative;
+	top:-9px;
+
+}
+
+ section h2 {
+    width: 70%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 47px 172px 20px;
+}
+
+section h2 span {
+    position: relative;
+    background: #FFF;
+    padding: 0px 10px;
+    top: 11px;
+    font-size: 40px;
+}
+
+header{
+	background: -webkit-linear-gradient(top, rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	margin:0px auto;
+	min-width:100%;
+	height:400px;
+	display:block;
+}
+
+header img {
+	height:300px;
+	width:250px;
+	position: absolute;
+	left:200px;
+	top:100px;
+}
+
+header h1{
+color:white;
+position: absolute;
+top:170px;
+left:630px;	
+word-spacing: 10px;
+
+}
+
+header p {
+	position: absolute;
+	color:grey;
+	top:250px;
+	left:630px;
+}
+
+#p2{
+	position: absolute;
+	color:grey;
+	top:230px;
+	left:630px;
+}
+
+   .button {
+    /*adjust the roundness*/
+    border-radius: 0px;
+    moz-border-radius: 0px;
+    webkit-border-radius: 0px;
+    /*adjust height and width*/
+    height: 30px;
+    width: 150px; 
+    /*change border colour*/
+    border:1px #74a9dd solid;
+    position:absolute;
+    top:280px;
+    left:630px;
+    background-color:#74a9dd
+}
+
+#span1{
+	font-size: 18px
+	margin-left:25%;
+	margin-right: 25;
+	color:#bfd0e1;
+}
+ 
+span{
+	color:#74a9dd;
+	font-size:18px;
+}
+
+#windows{
+ height:86px;
+ width:103px;
+ position: absolute;
+ margin-top: 40px;
+ right:20%;
+ margin-right: 4%
+}
+
+#android{
+height:85px;
+width:86px;
+left:47%;
+margin-top:40px;
+position: absolute;
+}
+
+#apple{
+height:85px;
+position:absolute;
+left:25%;
+margin-top: 40px;
+width:105px;
+}
+
+#head1{
+bottom:22%;
+position: absolute;
+left:26%;
+color:#74a9dd;
+}
+
+#head2{
+bottom:22%;
+position: absolute;
+left:47%;
+margin-left:2px;
+color:#74a9dd;
+
+}
+
+#head3{
+bottom:22%;
+position: absolute;
+right:25%;
+color:#74a9dd;
+}
+
+#pr1{
+	bottom:18%;
+position: absolute;
+left:22%;
+text-align: center;
+}
+
+#pr2{
+	bottom:18%;
+position: absolute;
+left:43%;
+margin-left:2px;
+text-align: center;
+}
+
+#pr3{
+	bottom:18%;
+position: absolute;
+right:21%;
+text-align: center;
+}
+
+a:active{color:white;}
+
+@media (max-width: 450px) {
+
+		nav{
+			position: static;
+		}
+
+		#head {
+   		 	margin-right: 0px;
+    		float: left;
+    		position: relative;
+    		left: 34px;
+    		font-size: 18px;
+			}
+
+		#para1 {
+				
+    		left: -86px;
+    	`	position: relative;
+    		top: 47px;
+    		float: left;
+			}
+
+		nav li a {
+			font-size: 12px;
+		}
+
+		nav ul {
+    		float: right;
+    		margin: 22px 20px;
+    		right: -9px;
+    		position: relative;	
+			}
+
+		nav li {
+			padding:0px;
+		}	
+
+		header {
+    		height: 282px;
+    		display: block;
+				}
+
+		header img {
+    			height: 188px;
+   	 			width: 138px;
+    			position: absolute;
+    			left: 9px;
+    			top: 172px;
+				}
+
+				header h1 {
+    				position: absolute;
+    				top: 170px;
+    				left: 160px;
+    				font-size: 22px;
+				}
+
+					#p2 {
+   	 					position: absolute;
+    					color: grey;
+    					top: 241px;
+    					left: 160px;
+    					font-size: 12px;
+						}
+
+						header p {
+    					position: absolute;
+    					top: 208px;
+   					 	left: 160px;
+    					font-size: 12px;
+						}
+
+					.button{
+						left:181px;
+					}	
+							
+					section h2 span  {
+						font-size:27px;
+						top:3px;
+					}
+
+					section h2 {
+						margin: 28px 25px 7px;
+						width:90%;
+					}
+
+					#apple 
+						{
+    					height: 55px;
+    					position: absolute;
+    					left: 4%;
+    					margin-top: 40px;
+    					width: 82px;
+							}
+					#android {
+						
+   						 height: 62px;
+    					width: 64px;
+    					left: 42%;
+    					margin-top: 36px;
+    					position: absolute;
+					}
+
+					#windows {
+
+    						height: 63px;
+    						width: 91px;
+    						position: absolute;
+    						margin-top: 37px;
+    						right: -1%;
+    						margin-right: 4%;
+								}
+
+					#head1{
+						bottom: 28%;
+    					position: absolute;
+    					left: 6%;
+    					color: #74a9dd;
+
+					}
+					
+					#head2{
+						bottom: 28%;
+    					position: absolute;
+    					left: 40%;
+    					margin-left: 2px;
+    					color: #74a9dd;
+
+					}
+
+					#head3{
+						bottom: 28%;
+    					position: absolute;
+    					right: 6%;
+    					color: #74a9dd
+					}
+
+					#pr1 {
+						bottom: 24%;
+    					position: absolute;
+    					left: 2%;
+    					text-align: center;
+    					font-size: 10px;
+
+					}
+					#pr2 {
+						bottom: 24%;
+    					position: absolute;
+    					left: 43%;
+    					margin-left: -30px;
+    					text-align: center;
+    					font-size: 10px;
+					}
+					#pr3 {
+						bottom: 24%;
+    					position: absolute;
+    					right: 2%;
+    					text-align: center;
+    					font-size: 10px;
+					}
+
+}
